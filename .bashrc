@@ -94,4 +94,5 @@ export OLLAMA_HOST=0.0.0.0:11434
 ##################################
 alias odysseus="wslview http:localhost:7000"
 alias gpu="watch -n 1 nvidia-smi"
-alias agent="source ~/local-agent/venv/bin/activate && python3 ~/local-agent/agent.py"
+# alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' # Uncomment to modify dotfiles repo
+
