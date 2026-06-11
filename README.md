@@ -6,7 +6,7 @@ To deploy these dotfiles onto a new machine, open a terminal and run the followi
 
 ### 1. Define the temporary alias
 ```bash
-alias config='/usr/bin/git --git-dir=HOME/.dotfiles/ --work-tree=HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 ```
 
 ### 2. Clone the repository as bare
