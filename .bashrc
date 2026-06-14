@@ -46,7 +46,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-export LS_COLORS="$LS_COLORS"
+export LS_COLORS="$LS_COLORS:ow=0:tw=0:"
 
 # Created by `pipx` on 2026-06-10 19:00:59
 export PATH="$PATH:/home/alex/.local/bin"
@@ -57,7 +57,7 @@ alias la='ls -lAF'
 alias odysseus='wslview http:localhost:7000'
 alias gpu='watch -n 1 nvidia-smi'
 alias cdc='cd /mnt/c'
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' # Uncomment to modify dotfiles repo
+#alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' # Uncomment to modify dotfiles repo
 
 # opencode
 export PATH=/home/alex/.opencode/bin:$PATH
