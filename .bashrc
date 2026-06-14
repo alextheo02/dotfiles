@@ -9,8 +9,7 @@ case $- in
 esac
 
 # Prompt settings
-PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]'
-
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
@@ -57,7 +56,7 @@ alias ll='ls -lF'
 alias la='ls -lAF'
 alias odysseus='wslview http:localhost:7000'
 alias gpu='watch -n 1 nvidia-smi'
- alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' # Uncomment to modify dotfiles repo
+#alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' # Uncomment to modify dotfiles repo
 
 # opencode
 export PATH=/home/alex/.opencode/bin:$PATH
