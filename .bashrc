@@ -56,7 +56,8 @@ alias ll='ls -lF'
 alias la='ls -lAF'
 alias odysseus='wslview http:localhost:7000'
 alias gpu='watch -n 1 nvidia-smi'
-#alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' # Uncomment to modify dotfiles repo
+alias cdc='cd /mnt/c'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' # Uncomment to modify dotfiles repo
 
 # opencode
 export PATH=/home/alex/.opencode/bin:$PATH
